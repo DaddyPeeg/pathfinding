@@ -37,8 +37,8 @@ const PathfindingVisualizer = () => {
     if (isBlocks && mode === "set-blocks") isMouse = false;
   };
 
-  const rows = 30;
-  const columns = 40;
+  const rows = 20;
+  const columns = 20;
   const cellSize = 30;
   const grid = gridCells(rows, columns);
 
